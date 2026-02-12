@@ -1,0 +1,15 @@
+export const footerLinks = [
+  "About",
+  "Blog",
+  "Jobs",
+  "help",
+  "Jobs",
+  "Help",
+  "API",
+  "Terms",
+  "Top Accounts",
+  "Locations",
+  "Contact",
+  "UPloading",
+  "and Non-Users",
+];

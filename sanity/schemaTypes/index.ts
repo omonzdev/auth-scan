@@ -1,0 +1,9 @@
+import { type SchemaTypeDefinition } from "sanity";
+
+import { blockContentType } from "./blockContentType";
+import { categoryType } from "./categoryType";
+import { contestantType } from "./contestantType";
+
+export const schema: { types: SchemaTypeDefinition[] } = {
+  types: [blockContentType, categoryType, contestantType],
+};
