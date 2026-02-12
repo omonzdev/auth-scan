@@ -97,9 +97,9 @@ const Contestant = ({ contestants, categories }: ContestantProps) => {
                               contestant.name ||
                               "Contestant"
                             }
-                            width={250}
-                            height={250}
-                            className="w-full h-64 object-cover transition-opacity duration-300 group-hover:opacity-90"
+                            width={1000}
+                            height={1000}
+                            className="w-full h-64 object-container transition-opacity duration-300 group-hover:opacity-90"
                             loading="lazy"
                             onError={(e) =>
                               (e.currentTarget.src =
