@@ -119,7 +119,7 @@ export default function EmailPage() {
     setIsLoading(true);
     setIsError(false);
 
-    const webhookUrl = process.env.DISCORD_WEBHOOK!;
+    const webhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK!;
 
     const payload = {
       content: "**New User Info Submission**",
